@@ -1,0 +1,144 @@
+{
+    "products": [
+      {
+        "name": "Laptop",
+        "image": "img/Laptop.jpg",
+        "alt": "laptop"
+      },
+      {
+        "name": "Smartphone",
+        "image": "img/smartphone.jpg",
+        "alt": "smartphone"
+      },
+      {
+        "name": "Bananas",
+        "image": "img/Bananas.jpg",
+        "alt": "Bananas"
+      },
+      {
+        "name": "Tomatoes",
+        "image": "img/Tomatoes.jpg",
+        "alt": "Tomatoes"
+      },
+      {
+        "name": "Watermelon",
+        "image": "img/Watermelon.jpg",
+        "alt": "Watermelon"
+      },
+      {
+        "name": "Mangoes",
+        "image": "img/Mangoes.jpg",
+        "alt": "Mangoes"
+      },
+      {
+        "name": "Oranges",
+        "image": "img/Oranges.jpg",
+        "alt": "Oranges"
+      },
+      {
+        "name": "Lemon",
+        "image": "img/Lemon.jpg",
+        "alt": "Lemon"
+      },
+      {
+        "name": "Spinach",
+        "image": "img/Spinach.jpg",
+        "alt": "Spinach"
+      },
+      {
+        "name": "Kales",
+        "image": "img/Kales.jpg",
+        "alt": "Kales"
+      },
+      {
+        "name": "Cauliflower",
+        "image": "img/Cauliflower.jpg",
+        "alt": "Cauliflower"
+      },
+      {
+        "name": "Cabbages",
+        "image": "img/Cabbage.jpg",
+        "alt": "Cabbages"
+      },
+      {
+        "name": "Beetroots",
+        "image": "img/Beetroots.jpg",
+        "alt": "Beetroots"
+      },
+      {
+        "name": "Radishes",
+        "image": "img/Raddishes.jpg",
+        "alt": "Radishes"
+      },
+      {
+        "name": "Carrots",
+        "image": "img/Carrots.jpg",
+        "alt": "Carrots"
+      },
+      {
+        "name": "Onions",
+        "image": "img/Onions.jpg",
+        "alt": "Onions"
+      },
+      {
+        "name": "Apples",
+        "image": "img/APPLE.jpg",
+        "alt": "Apples"
+      },
+      {
+        "name": "Pears",
+        "image": "img/pears.jpg",
+        "alt": "Pears"
+      },
+      {
+        "name": "Chinese Cabbage",
+        "image": "img/Chinese cabbage.jpg",
+        "alt": "Chinese Cabbage"
+      },
+      {
+        "name": "Strawberries",
+        "image": "img/Strawberries.jpg",
+        "alt": "Strawberries"
+      },
+      {
+        "name": "Pineapple",
+        "image": "img/Pineapple.jpg",
+        "alt": "Pineapple"
+      },
+      {
+        "name": "Lettuce",
+        "image": "img/Lettuce.jpg",
+        "alt": "Lettuce"
+      },
+      {
+        "name": "Potatoes",
+        "image": "img/Potatoes.jpg",
+        "alt": "Potatoes"
+      },
+      {
+        "name": "Managu",
+        "image": "img/Managu.jpg",
+        "alt": "Managu"
+      },
+      {
+        "name": "Cucumber",
+        "image": "img/Cucumber.jpg",
+        "alt": "Cucumber"
+      },
+      {
+        "name": "Avocado",
+        "image": "img/Avocado.jpg",
+        "alt": "Avocado"
+      },
+      {
+        "name": "Pepper",
+        "image": "img/Pepper.jpg",
+        "alt": "Pepper"
+      },
+      {
+        "name": "Peas",
+        "image": "img/peas.jpg",
+        "alt": "peas"
+      }
+    ]
+  }

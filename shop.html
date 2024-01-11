@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Online Shopping App</title>
+</head>
+<body>
+    <header>
+        <h1>Online Shopping App</h1>
+        <div id="cart">Cart (0 items)</div>
+    </header>
+    <main>
+        <!-- <div class="product">
+            <img src="img/Laptop.jpg" alt="laptop">
+            <img src="img/smartphone.jpg" alt="smartphone">
+            <img src="img/Bananas.jpg" alt="Bananas">
+            <img src="img/Tomatoes.jpg" alt="Tomatoes">
+            <img src="img/Watermelon.jpg" alt="Watermelon">
+            <img src="img/Mangoes.jpg" alt="Mangoes">
+            <img src="img/Oranges.jpg" alt="Oranges">
+            <img src="img/Lemon.jpg" alt="Lemon">
+            <img src="img/Spinach.jpg" alt="Spinach">
+            <img src="img/Kales.jpg" alt="Kales">
+            <img src="img/Cauliflower.jpg" alt="Cauliflower">
+            <img src="img/Cabbage.jpg" alt="Cabbages">
+            <img src="img/Beetroots.jpg" alt="Beetroots">
+            <img src="img/Raddishes.jpg" alt="Radishes">
+            <img src="img/Carrots.jpg" alt="Carrots">
+            <img src="img/Onions.jpg" alt="Onions">
+            <img src="img/APPLE.jpg" alt="Apples">
+            <img src="img/pears.jpg" alt="Pears">
+            <img src="img/Chinese cabbage.jpg" alt="Chinese Cabbage"> 
+            <img src="img/Strawberries.jpg" alt="Strawberries">
+            <img src="img/Pineapple.jpg" alt="Pineapple">
+            <img src="img/Lettuce.jpg" alt="Lettuce">
+            <img src="img/Potatoes.jpg" alt="Potatoes">
+            <img src="img/Managu.jpg" alt="Managu">
+            <img src="img/Cucumber.jpg" alt="Cucumber">
+            <img src="img/Avocado.jpg" alt="Avocado">
+            <img src="img/Pepper.jpg" alt="Pepper">
+            <img src="img/peas.jpg" alt="peas">
+
+
+        </div> -->
+
+
+      
+    </main>
+
+    <section id="products">
+        <!-- Product items will be dynamically added here -->
+    </section>
+
+    <script src="app.js">
+        const json = {
+    "products": [
+      {
+        "name": "Laptop",
+        "image": "img/Laptop.jpg",
+        "alt": "laptop"
+      },
+      {
+        "name": "Smartphone",
+        "image": "img/smartphone.jpg",
+        "alt": "smartphone"
+      },
+      {
+        "name": "Bananas",
+        "image": "img/Bananas.jpg",
+        "alt": "Bananas"
+      },
+      {
+        "name": "Tomatoes",
+        "image": "img/Tomatoes.jpg",
+        "alt": "Tomatoes"
+      },
+      {
+        "name": "Watermelon",
+        "image": "img/Watermelon.jpg",
+        "alt": "Watermelon"
+      },
+      {
+        "name": "Mangoes",
+        "image": "img/Mangoes.jpg",
+        "alt": "Mangoes"
+      },
+      {
+        "name": "Oranges",
+        "image": "img/Oranges.jpg",
+        "alt": "Oranges"
+      },
+      {
+        "name": "Lemon",
+        "image": "img/Lemon.jpg",
+        "alt": "Lemon"
+      },
+      {
+        "name": "Spinach",
+        "image": "img/Spinach.jpg",
+        "alt": "Spinach"
+      },
+      {
+        "name": "Kales",
+        "image": "img/Kales.jpg",
+        "alt": "Kales"
+      },
+      {
+        "name": "Cauliflower",
+        "image": "img/Cauliflower.jpg",
+        "alt": "Cauliflower"
+      },
+      {
+        "name": "Cabbages",
+        "image": "img/Cabbage.jpg",
+        "alt": "Cabbages"
+      },
+      {
+        "name": "Beetroots",
+        "image": "img/Beetroots.jpg",
+        "alt": "Beetroots"
+      },
+      {
+        "name": "Radishes",
+        "image": "img/Raddishes.jpg",
+        "alt": "Radishes"
+      },
+      {
+        "name": "Carrots",
+        "image": "img/Carrots.jpg",
+        "alt": "Carrots"
+      },
+      {
+        "name": "Onions",
+        "image": "img/Onions.jpg",
+        "alt": "Onions"
+      },
+      {
+        "name": "Apples",
+        "image": "img/APPLE.jpg",
+        "alt": "Apples"
+      },
+      {
+        "name": "Pears",
+        "image": "img/pears.jpg",
+        "alt": "Pears"
+      },
+      {
+        "name": "Chinese Cabbage",
+        "image": "img/Chinese cabbage.jpg",
+        "alt": "Chinese Cabbage"
+      },
+      {
+        "name": "Strawberries",
+        "image": "img/Strawberries.jpg",
+        "alt": "Strawberries"
+      },
+      {
+        "name": "Pineapple",
+        "image": "img/Pineapple.jpg",
+        "alt": "Pineapple"
+      },
+      {
+        "name": "Lettuce",
+        "image": "img/Lettuce.jpg",
+        "alt": "Lettuce"
+      },
+      {
+        "name": "Potatoes",
+        "image": "img/Potatoes.jpg",
+        "alt": "Potatoes"
+      },
+      {
+        "name": "Managu",
+        "image": "img/Managu.jpg",
+        "alt": "Managu"
+      },
+      {
+        "name": "Cucumber",
+        "image": "img/Cucumber.jpg",
+        "alt": "Cucumber"
+      },
+      {
+        "name": "Avocado",
+        "image": "img/Avocado.jpg",
+        "alt": "Avocado"
+      },
+      {
+        "name": "Pepper",
+        "image": "img/Pepper.jpg",
+        "alt": "Pepper"
+      },
+      {
+        "name": "Peas",
+        "image": "img/peas.jpg",
+        "alt": "peas"
+      }
+    ]
+  };
+  
+  const productsObject = {
+    products: jsonData.products.map(product => ({
+      name: product.name,
+      image: product.image,
+      alt: product.alt
+    }))
+  };
+  
+ return productsObject;
+    </script>
+</body>
+</html>
+
